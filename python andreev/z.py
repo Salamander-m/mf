@@ -1,7 +1,4 @@
-import math 
-a = input()
-a = float(a)
-p = math.pi
-print(a)
-z = p - (2*a)
-print(z)
+from math import *
+x = 1
+y = 1-sqrt((pi/2)**2 - (x-pi/2)**2)
+print(y)
