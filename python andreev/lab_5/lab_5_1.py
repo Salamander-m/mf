@@ -9,7 +9,7 @@ line = int(input('input n of line = '))
 for i in range(row):
     a = []
     for j in range(line):
-        a.append(uniform(-5,5))
+        a.append(randint(0,5))
     m.append(a)
     if 0 not in a:
         k = k + 1
